@@ -1,0 +1,60 @@
+
+site_name: me
+theme:
+  favicon: assets/logo.svg
+  logo: assets/logo.svg
+  features:
+    - content.tooltips
+    - header.autohide
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+  name: material
+  custom_dir: overrides
+  palette: 
+  
+    # Palette toggle for light mode
+    scheme: default
+    accent: white
+    primary: teal
+plugins: ["offline"]
+
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - abbr
+  - pymdownx.snippets
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/j0fiN
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jofin-f-archbald-6892b2186/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:jofinfab@gmail.com
+    
+
+
+copyright: Copyright &copy; 2023 Jofin F Archbald
